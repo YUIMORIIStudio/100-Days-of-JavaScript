@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <body>
+      <div class="w">
+        <!-- Operation interface -->
+        <div class="controls">
+          <img src="./images/9.6/tip.png" alt="" /><br />
+          <!-- maxlength can be used to limit the content length of the form input -->
+          <textarea
+            placeholder="What`s happening..."
+            id="area"
+            cols="30"
+            rows="10"
+            maxlength="200"
+          ></textarea>
+          <div>
+            <span class="useCount" id="useCount">0</span>
+            <span>/</span>
+            <span>200</span>
+            <button id="send">Publish</button>
+          </div>
+        </div>
+        <!-- Weibo content list -->
+        <div class="contentList">
+          <ul id="list"></ul>
+        </div>
+      </div>
+  
+      <!-- Added hidden attribute element will be hidden directly -->
+      <li hidden>
+        <div class="info">
+          <img class="userpic" src="./images/9.6/03.jpg" />
+          <span class="username">Dead Data</span>
+          <p class="send-time">Dead Data: Posted on Dec 05, 2020 00:07:54</p>
+        </div>
+        <div class="content">Dead data:param</div>
+        <span class="the_del">X</span>
+      </li>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>

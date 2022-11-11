@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.box {
+  width: 600px;
+  margin: 50px auto;
+  display: flex;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.qs {
+  width: 450px;
+  height: 40px;
+  color: red;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btns button {
+  width: 120px;
+  height: 35px;
+  margin: 0 50px;
+}

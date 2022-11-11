@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ul {
+  list-style: none;
+}
+
+.search-box {
+  position: relative;
+  width: 223px;
+  margin: 100px auto;
+}
+
+.search-box input {
+  width: 223px;
+  height: 48px;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 48px;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.search-box .search {
+  border: 1px solid #ff9d00f5;
+}
+
+.result-list {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 223px;
+  border: 1px solid #ff9d00f5;
+  border-top: 0;
+  background: #fff;
+}
+
+.result-list a {
+  display: block;
+  padding: 6px 15px;
+  font-size: 12px;
+  color: #424242;
+  text-decoration: none;
+}
+
+.result-list a:hover {
+  background-color: #eee;
+}
