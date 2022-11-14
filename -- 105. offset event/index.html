@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 3000px;
+      }
+
+      .aside {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .item {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+
+      .active {
+        background-color: red;
+        color: #fff;
+      }
+
+      .content {
+        width: 660px;
+        margin: 400px auto;
+      }
+
+      .content-c {
+        height: 300px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .content1 {
+        background-color: red;
+      }
+
+      .content2 {
+        background-color: blue;
+      }
+
+      .content3 {
+        background-color: orange;
+      }
+
+      .content4 {
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="aside">
+      <div class="item active">メンズウェア/レディスウェア</div>
+      <div class="item">子供服・遊園地</div>
+      <div class="item">エレクトロニクス</div>
+      <div class="item">映画/グルメ</div>
+    </div>
+
+    <div class="content">
+      <div class="content-c content1">メンズウェア/レディスウェア</div>
+      <div class="content-c content2">子供服・遊園地</div>
+      <div class="content-c content3">エレクトロニクス</div>
+      <div class="content-c content4">映画/グルメ</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

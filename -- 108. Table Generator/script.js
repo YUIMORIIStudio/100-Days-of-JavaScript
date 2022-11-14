@@ -20,7 +20,7 @@ let arr = [
     stuId: 1003,
     uname: "Tommy",
     age: 39,
-    gender: "femail",
+    gender: "femela",
     salary: "2000",
     city: "Ottawa",
   },
@@ -77,13 +77,16 @@ add.addEventListener("click", function () {
     salary: salary.value,
     city: city.value,
   });
-  // console.log(arr)
+  console.log(arr);
+  //(4) [{…}, {…}, {…}, {…}]
+  // (5) [{…}, {…}, {…}, {…}, {…}]
+  // (6) [{…}, {…}, {…}, {…}, {…}, {…}]
   // Render our function again
   render();
   // recover all the form data
-  uname.value = age.value = salary.value = "";
-  gender.value = "male";
-  city.value = "Beijing";
+  // uname.value = age.value = salary.value = "";
+  // gender.value = "male";
+  // city.value = "Beijing";
 });
 
 // Delete operation, the data is also deleted from the array, but we use the event delegate
