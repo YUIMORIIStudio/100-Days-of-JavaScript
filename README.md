@@ -79,3 +79,59 @@
 🪴 It mainly involves the following knowledge points: 
 
 1. calculate the total price result function, which is based on the quantity ✖️ unit price entered by the user
+
+## Project 110:  🎟Random Draw
+
+>  Use the math function and setInterval method to randomly select a number or string from an array
+
+🪴 It mainly involves the following knowledge points: 
+
+1. Using setInterval Function
+
+## Project 111: 📃 Terms and Conditions
+
+> Simulated Website User Terms Agreement 
+
+🪴 It mainly involves the following knowledge points: 
+
+1. Using setInterval Function
+
+## Project 112: 🧾Drop-down Menu
+
+> Show drop-down menu when mouse hovering 
+
+🪴 It mainly involves the following knowledge points: 
+
+1. Using addEventListener 
+
+## Project 113: 📭 Twitter post
+
+> 
+
+🪴 It mainly involves the following knowledge points: 
+
+1. 
+
+## Project 114: 🕺 Webpage Auto-jump
+
+>  Set countdown, webpage auto-jump
+
+🪴 It mainly involves the following knowledge points: 
+
+1. Location Oject 
+
+## Project 115:  ✅ Select All
+
+>  
+
+🪴 It mainly involves the following knowledge points: 
+
+1.  
+
+## Project 116:  
+
+>  
+
+🪴 It mainly involves the following knowledge points: 
+
+1.  

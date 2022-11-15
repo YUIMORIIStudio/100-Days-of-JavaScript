@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="https://www.freecodecamp.org/"
+      >Thank you for your donation! after <span>5</span> seconds, page will jump
+      to freecodecamp
+    </a>
+    <script>
+      let a = document.querySelector("a");
+      let num = 5;
+      let timer = setInterval(function () {
+        num--;
+        a.innerHTML = `Thank you for your donation! after <span>${num}</span> seconds, page will jump
+      to landing page of freecodecamp`;
+
+        if (num === 0) {
+          clearInterval(timer);
+
+          location.href = "https://www.freecodecamp.org/";
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
