@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dynamically add tabs</title>
+    <link rel="stylesheet" href="./styles/tab.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h4>Dynamically add tabs</h4>
+      <div class="tabsbox" id="tab">
+        <!-- tab  -->
+        <nav class="firstnav">
+          <ul>
+            <li class="liactive">
+              <span>test1</span><span class="iconfont icon-guanbi"></span>
+            </li>
+            <li>
+              <span>test2</span><span class="iconfont icon-guanbi"></span>
+            </li>
+            <li>
+              <span>test3</span><span class="iconfont icon-guanbi"></span>
+            </li>
+          </ul>
+          <div class="tabadd">
+            <span>+</span>
+          </div>
+        </nav>
+
+        <!-- tab 内容 -->
+        <div class="tabscon">
+          <section class="conactive">
+            Nearly all objects in JavaScript are instances of Object; a typical
+            object inherits properties (including methods) from
+            Object.prototype, although these properties may be shadowed (a.k.a.
+            overridden). The only objects that don't inherit from
+            Object.prototype are those with null prototype, or descended from
+            other null prototype objects.
+          </section>
+          <section>
+            Nearly all objects in JavaScript are instances of Object; a typical
+            object inherits properties (including methods) from
+            Object.prototype, although these properties may be shadowed (a.k.a.
+            overridden). The only objects that don't inherit from
+            Object.prototype are those with null prototype, or descended from
+            other null prototype objects.
+          </section>
+          <section>
+            Nearly all objects in JavaScript are instances of Object; a typical
+            object inherits properties (including methods) from
+            Object.prototype, although these properties may be shadowed (a.k.a.
+            overridden). The only objects that don't inherit from
+            Object.prototype are those with null prototype, or descended from
+            other null prototype objects.
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/tab.js"></script>
+  </body>
+</html>
