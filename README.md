@@ -1,6 +1,6 @@
 # 🚀 130-days-of-JavaScript
 
-🔥 Welcome to the 100DaysOfCode Challenge in JavaScript. This repository contains my 130 projects made using JavaScript along with HTML, CSS & Sass
+🔥 Welcome to the 130DaysOfCode Challenge in JavaScript. This repository contains my 130 projects made using JavaScript along with HTML, CSS & Sass
 
 ## Project 103: Rotating image case
 
